@@ -1,0 +1,27 @@
+/storage/.config/rc_keymaps
+Control Steren (Samsung) tv+9
+
+[[protocols]]
+name = "samsung1"
+protocol = 'pulse_distance'
+header_pulse = 4500
+header_space = 4500
+bit_pulse = 600
+bit_0_space = 500
+bit_1_space = 1600
+bits = 32
+margin = 300
+trailer_pulse = 600
+[protocols.scancodes]
+0xe0e040bf = "KEY_POWER"
+0xe0e006f9 = "KEY_UP"
+0xe0e08679 = "KEY_DOWN"
+0xe0e0a659 = "KEY_LEFT"
+0xe0e046b9 = "KEY_RIGHT"
+0xe0e016e9 = "KEY_OK"
+0xe0e01ae5 = "KEY_BACK"
+0xe0e0f00f = "KEY_MUTE"
+0xe0e058a7 = "KEY_MENU"
+0xe0e0d02f = "KEY_VOLUMEDOWN"
+0xe0e0e01f = "KEY_VOLUMEUP"
+0xe0e06e91 = "KEY_HOME"
